@@ -9,6 +9,10 @@ GameCenter.prototype.auth = function (success, failure) {
     exec(success, failure, "GameCenter", "auth", []);
 };
 
+GameCenter.prototype.generateSignature = function (success, failure) {
+    exec(success, failure, "GameCenter", "generateSignature", []);
+};
+
 GameCenter.prototype.getPlayerImage = function (success, failure) {
     exec(success, failure, "GameCenter", "getPlayerImage", []);
 };
